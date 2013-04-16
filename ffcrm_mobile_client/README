@@ -11,7 +11,7 @@ Edit index.erb
     <li><a href="Accounts">Account</a></li>
     <li><a href="#">Contacts</a></li>
     <li><a href="#">Opportunities</a></li>
-	  <!-- -->	
+	  <!-- -->
   </ul>
 </div>
 

@@ -11,9 +11,10 @@ class AppApplication < Rho::RhoApplication
 
     # Uncomment to set sync notification callback to /app/Settings/sync_notify.
     # SyncEngine::set_objectnotify_url("/app/Settings/sync_notify")
+    #SyncEngine.set_notification(-1, "/app/Settings/sync_notify", '')
     SyncEngine.set_notification(-1, "/app/Settings/sync_notify", '')
     
     # Register push callback
-    System.set_push_notification "/app/Push/push_callback", ""
+    # System.set_push_notification "/app/Push/push_callback", ""
   end
 end
